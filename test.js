@@ -7,3 +7,11 @@ tape('test against a relative path', function(t){
 	t.equal(resolved, __dirname + '/package.json')
 	t.end()
 })
+
+
+tape('return null for a null input', function(t){
+	var resolved = resolve()
+
+	t.equal(resolved, null, 'resolved is null')
+	t.end()
+})
