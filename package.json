@@ -1,0 +1,29 @@
+{
+  "name": "cli-path-resolve",
+  "version": "0.0.0",
+  "description": "resolve/normalize a filepath using the cwd as the basepath if relative",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binocarlos/cli-path-resolve.git"
+  },
+  "keywords": [
+    "cli",
+    "path",
+    "resolve",
+    "normalize",
+    "relative"
+  ],
+  "author": "Kai Davenport",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binocarlos/cli-path-resolve/issues"
+  },
+  "homepage": "https://github.com/binocarlos/cli-path-resolve",
+  "devDependencies": {
+    "tape": "^2.13.3"
+  }
+}
