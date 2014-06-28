@@ -1,6 +1,6 @@
 {
   "name": "cli-path-resolve",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "resolve/normalize a filepath using the cwd as the basepath if relative",
   "main": "index.js",
   "scripts": {
