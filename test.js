@@ -15,3 +15,12 @@ tape('return null for a null input', function(t){
 	t.equal(resolved, null, 'resolved is null')
 	t.end()
 })
+
+tape('test against an absolute path', function(t){
+  var resolved_linux = resolve('/tmp/apples.txt')
+  var resolved_win = resolve('c:\\tmp\\apples.txt')
+
+  t.equal(resolved_linux, '/tmp/apples.txt')
+  t.equal(resolved_win, 'c:\\tmp\\apples.txt')
+  t.end()
+})
